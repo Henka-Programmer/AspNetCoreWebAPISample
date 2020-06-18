@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AspNetCoreWebAPISample</name>
+    </assembly>
+    <members>
+        <member name="M:AspNetCoreWebAPISample.WebAPI.Controllers.V1.CustomersController.GetAll">
+            <summary>
+            Gets all Customers
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AspNetCoreWebAPISample.WebAPI.Controllers.V1.CustomersController.Get(System.Guid)">
+            <summary>
+            Gets a specific Customer
+            </summary>
+            <param name="customerId">The target Customer id</param>
+            <returns>the Customer if exists otherwise a not found error message</returns>
+        </member>
+    </members>
+</doc>
